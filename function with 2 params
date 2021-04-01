@@ -1,0 +1,14 @@
+fun main() {
+    val border = "`-._,-'"
+    val timesToRepeat = 4
+    
+    printBorder(border, timesToRepeat)
+    println("happy birth day!")
+    printBorder(border, timesToRepeat)
+}
+fun printBorder(border : String, repeat : Int){
+    repeat(repeat){
+        print("${border}")
+    }
+	println("")
+}
