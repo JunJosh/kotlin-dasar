@@ -1,0 +1,15 @@
+fun main() {
+   val age = 17
+   val border = "%";
+    
+   printBorder(border)
+   println("you're ${age}")
+   printBorder(border)
+}
+
+fun printBorder(border : String){
+    repeat(23){
+        print("${border}")
+    }
+    println("")
+}
